@@ -1,0 +1,19 @@
+/*Stick Footer*/
+/*=====================================*/
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+.footer, .push {
+    height: 30px; 
+}
+/*=====================================*/
+button {
+	padding: 5px;
+	margin: 5px;
+}
