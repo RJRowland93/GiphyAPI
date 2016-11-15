@@ -13,6 +13,8 @@ html, body {
     height: 30px; 
 }
 /*=====================================*/
+/*Padding and Margins*/
+/*=====================================*/
 button {
 	padding: 5px;
 	margin: 5px;
@@ -20,11 +22,19 @@ button {
 .fitted {
 	display: inline-block;
 	margin: 5px;
-	border: 2px solid black;
+	border: 2px solid #f5f5f5;
 }
-small, p {
-	font-size: 24px;
 }
 #topicSection, #searchBar {
 	margin: 5px 0 5px 0;
 }
+/*=====================================*/
+/*Text Styling*/
+/*=====================================*/
+h1 {
+	font-family: "Neuton", serif;
+	font-size: 64px;
+}
+small, p, .btn {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
