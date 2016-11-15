@@ -17,3 +17,14 @@ button {
 	padding: 5px;
 	margin: 5px;
 }
+.fitted {
+	display: inline-block;
+	margin: 5px;
+	border: 2px solid black;
+}
+small, p {
+	font-size: 24px;
+}
+#topicSection, #searchBar {
+	margin: 5px 0 5px 0;
+}

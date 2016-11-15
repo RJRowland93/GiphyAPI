@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/reset.css">
+	<!-- Bootstrap Theme -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- jQuery CDN -->
 	<script src="https://code.jquery.com/jquery.js"></script>
@@ -14,34 +16,36 @@
 </head>
 <body>
 <!-- main content -->
-<div class="wrapper container text-center">
-	<!-- header -->
-	<div class="row">
-		<div class="page-header">
-		  <h1>Stay up to date on the dankest memes!</h1>
-		  <br>
-		  <small>Click the buttons to see gifs of the finest humor the internet has to offer.</small>
+<div class="wrapper">
+	<div class="container text-center">
+		<!-- header -->
+		<div class="row">
+			<div class="page-header">
+			  <h1>Stay up to date on the dankest memes!</h1>
+			  <br>
+			  <small>Click the buttons to see gifs of the finest humor the internet has to offer.</small>
+			</div>
 		</div>
-	</div>
-	<div class="row">
-		<!-- search tags -->
-		<div class="col-xs-12 col-md-8" id="topicSection"></div>
-		<!-- search bar -->
-		<div class="col-xs-12 col-md-4">
-			<div class="input-group">
-			  <input type="text" class="form-control" placeholder="Add a dank meme..." id="memeHolder">
-		      <span class="input-group-btn">
-		        <button class="btn btn-default" type="button" id="go">Go!</button>
-		      </span>
-		    </div>
+		<div class="row">
+			<!-- search tags -->
+			<div class="col-xs-12 col-md-8" id="topicSection"></div>
+			<!-- search bar -->
+			<div class="col-xs-12 col-md-4" id="searchBar">
+				<div class="input-group">
+				  <input type="text" class="form-control" placeholder="Add a dank meme..." id="memeHolder">
+			      <span class="input-group-btn">
+			        <button class="btn btn-default" type="button" id="go">Go!</button>
+			      </span>
+			    </div>
+			</div>
 		</div>
+		<!-- gif display -->
+		<div class="row">
+			<div class="col-xs-12 text-center" id="images"></div>
+		</div>
+		<!-- Sticky Footer -->
+		<div class="push"></div>
 	</div>
-	<!-- gif display -->
-	<div class="row">
-		<div class="col-xs-12" id="images"></div>
-	</div>
-	<!-- Sticky Footer -->
-	<div class="push"></div>
 </div>
 
 <!-- footer -->

@@ -38,6 +38,7 @@ $(document).ready(function() {
 		for (var i = 0; i < results.length; i++) {
 		
 		var gifDiv = $("<div>");
+		gifDiv.addClass("fitted");
 
 		var p = $("<p>");
 		p.text("Rating: " + results[i].rating);
