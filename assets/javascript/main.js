@@ -27,7 +27,7 @@ $(document).ready(function() {
 	$(document).on("click", ".meme", function() {
 
 	var search = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=dc6zaTOxFJmzC&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 	$.ajax({url: queryURL, method: "GET"})
 	.done(function(response) {
